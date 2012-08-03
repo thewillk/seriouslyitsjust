@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Acme|Marmelad);
+html, body {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+}
+
+html, body, div, span, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, output, applet, object, iframe, p, blockquote, pre, code, a, abbr, acronym, address, big, cite, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, del, dfn, table, tbody, tfoot, thead, tr, th, td, tt, var, b, u, i, center, dl, dt, dd, ul, ol, li, label, legend, caption, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, keygen, select, button, button::-moz-focus-inner, isindex, hr {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img, abbr, acronyminput, textarea {
+  border: 0;
+  border: none;
+  outline: none;
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul, li {
+  list-style: none;
+  list-style-type: none;
+}
+
+caption, th, input, textarea {
+  text-align: left;
+}
+
+em, strong {
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.0em;
+  font-weight: normal;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+  quotes: none;
+}
+
+a, a:hover, a:visited, a:active, a:link {
+  text-decoration: none;
+}
+
+form {
+  display: block;
+}
+
+textarea:focus, input:focus, select:focus {
+  outline: none;
+}
+
+input, textarea, keygen, select, button, isindex {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  line-height: inherit;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: inherit;
+  display: inline-block;
+  text-align: inherit;
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+.clear, .clearfloat {
+  clear: both;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  -icab-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Marmelad", "Helvetica Nueu", "HelveticaNueu", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Acme", "Helvetica Nueu", "HelveticaNueu", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+ol li {
+  list-style: decimal;
+}
+
+header, section, footer {
+  padding: 10px 20px;
+}
+
+header {
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+  background-color: #990033;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #b3003b), color-stop(100%, #660022));
+  background: -webkit-linear-gradient(top left, #b3003b, #660022);
+  background: -moz-linear-gradient(top left, #b3003b, #660022);
+  background: -o-linear-gradient(top left, #b3003b, #660022);
+  background: linear-gradient(top left, #b3003b, #660022);
+  color: white;
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.6);
+}
+header h1 {
+  position: relative;
+  padding-left: 10px;
+}
+header h1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  left: -10px;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: red;
+  border: 10px solid red;
+  -webkit-box-shadow: inset 2px 2px 3px 1px rgba(0, 0, 0, 0.3), 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 2px 2px 3px 1px rgba(0, 0, 0, 0.3), 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 2px 2px 3px 1px rgba(0, 0, 0, 0.3), 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background: url("/bg-paper.jpg");
+}
