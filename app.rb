@@ -20,7 +20,10 @@ all_instructions = {
       'Deploy to Heroku.'
     ]
   },
-  :lunch => {}
+  :lunch => {},
+  :launch => {
+    :instructions => ["Ignore the launch date","Build it right","Iterate as quickly as necessary"]
+  }
 }
 
 get '/' do
